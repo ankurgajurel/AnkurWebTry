@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center; 
+    background-repeat: no-repeat;
+    background: url("background.jpeg");
+}
+
+
+.container{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    right: block;
+}
+
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: url("meme.JPG");
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box2{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: url("partdistx.jpg");
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box3{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: url("flipme2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.container .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #98939c;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box2 .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #c8afe2;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+
+.container .box3 .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9b81af;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box .content{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container .box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container .box .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.container .box2:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box2 .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box2:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box2 .content{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container .box2 .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container .box2 .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.container .box3:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box3 .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box3:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box3 .content{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.container .box3 .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #111;
+    font-size: 24px;
+}
+
+.container .box3 .content p{
+    margin: 0;
+    padding: 0;
+    color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .box4{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: url("selen.jpg");
+    background-size: cover;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box5{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: url("qb.svg");
+    background-size: cover;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box6{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: url("python2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.container .box4 .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a27ebd;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box5 .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #5d54a4;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+
+.container .box6 .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2a3d66;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box4:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box4 .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box4:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box4 .content{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.container .box4 .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #111;
+    font-size: 24px;
+}
+
+.container .box4 .content p{
+    margin: 0;
+    padding: 0;
+    color: #111;
+}
+
+
+
+
+
+
+
+.container .box5:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box5 .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box5:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box5 .content{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.container .box5 .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container .box5 .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.container .box6:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box6 .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box6:hover .icon .fa{
+    font-size: 40px;
+}
+
+.container .box6 .content{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.container .box6 .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #ff0000;
+    font-size: 24px;
+}
+
+.container .box6 .content p{
+    margin: 0;
+    padding: 0;
+    color: #4584b6;
+}
+
+
+
+
