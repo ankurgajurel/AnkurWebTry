@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Ankur Gajurel</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body background="sculp1.jpg">
+    <div class="container">
+        <div class="hero">
+    <div class="wrapper">
+        <a href="#">
+        <img src="profile1.jpg" id = "hoverimg" alt="" class = "hoverimg">
+        </a>
+        <div class="title">
+Ankur Gajurel</div>
+<div class="place">
+Bhaktapur, Nepal</div>
+</div>
+<div class="content">
+        <p>
+Student and<br>A Programming Enthusiast</p>
+<div class="buttons">
+    <div class="btn">
+            <button id="button-phone"><a href="error.html">Phone</a></button>
+    </div>
+<div class="btn">
+            <button id="button-home"><a href="index.html">Home</a></button>
+        </div>
+</div>
+</div>
+<div class="icons">
+<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+</div>
+</div>
+</div>
+<script>
+    const img = document.querySelector("img");
+    const icons = document.querySelector(".icons");
+    img.onclick = function(){
+        this.classList.toggle("active");
+        icons.classList.toggle("active");
+    }
+    </script>
+<footer>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about"></div>
+            <div class="footer-section links"></div>
+            <div class="footer-section contact-form"></div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy;2020 ankurgajurelweb.com | Designed by Ankur Gajurel
+        </div>
+    </div>
+</footer>
+</body>
+</html>
