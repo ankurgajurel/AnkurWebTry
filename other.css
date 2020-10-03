@@ -8,6 +8,9 @@ body{
     background: url("background.jpeg");
 }
 
+.cards{
+    display: flex;
+}
 
 .container{
     position: relative;
