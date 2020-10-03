@@ -16,7 +16,7 @@ body{
     margin: 50px;
     justify-content: center;
     align-items: center;
-    display: block;
+    display: flex;
     right: block;
 }
 
