@@ -17,6 +17,7 @@ body{
     align-items: center;
     display: block;
     right: block;
+    display: flex;
 }
 
 .container .box{
